@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        ul{
+            float: right;
+            list-style-type: none;
+        }
+        ul li{
+            display: inline-block;
+        }
+        h1{
+            text-align: right;
+            font-size: 70px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+            color: wheat;
+        }
+.topnav input[type=text] 
+{
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+.topnav{
+    float: left;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+.logo{
+    float: left;
+  }
+form{
+      border: 3px solid #f1f1f1;
+  }
+input[type=text], input[type=password]
+   {
+        width: 40%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+button {
+background-color: #04AA6D;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 20%;
+}
+button:hover{
+    opacity: 0.8;
+}
+.container{
+    padding: 0px;
+}
+span.psw{
+    float: right;
+    padding-top: 16px;;
+}
+
+    </style>
+
+    <head>
+        <title>Homekart</title>
+    </head>
+    <body style="background-image: url(https://media.istockphoto.com/photos/colorful-background-red-blue-and-yellow-orange-colors-abstract-modern-picture-id1332601848?b=1&k=20&m=1332601848&s=170667a&w=0&h=_zrnj0NBLjjuMfPvSqxEHn2-oVlExHhOPXP9HsOO_eI=);">
+        <header>
+            <ul>
+                <li>
+                    <a href="#"><img src="https://jonmgomes.com/wp-content/uploads/2020/01/House_Icon_Animation.gif" width="50" height="50"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://blog.advids.co/wp-content/uploads//2017/05/gadget.gif" width="50" height="50"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://media1.giphy.com/media/vlYZYUxO3Pt92WEeGw/giphy.gif?cid=ecf05e474nq05hhxm7ia4gomwtutykjdtrkxk8slb9dmceco&rid=giphy.gif&ct=g" width="50" height="50"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://media2.giphy.com/media/IqybrsS3F5dFZo2rpy/giphy.gif?cid=ecf05e471qeo5ksj949hltl4b2qs999mkbfm6pa6byynnt2b&rid=giphy.gif&ct=g" width="50" height="50"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://media4.giphy.com/media/RSZI67yZwYsxi/giphy.gif?cid=ecf05e47040owuyaaukcu83ov4u34i6dpqlgij9p60g9b1kz&rid=giphy.gif&ct=g" width="50" height="50"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://media1.giphy.com/media/oojejEqQXSrKNIagqX/giphy.gif?cid=ecf05e47fcb9azahqhcwis8b3lrqcsfbg1bkehh7leag82fe&rid=giphy.gif&ct=g" width="50" height="50"></a>
+                </li>
+            </ul>
+            <div class="topnav" style="margin-left: 500px; width: 30%;">
+            <input type="text" placeholder="Search an item">
+        </div>
+        </header>
+        <div class="logo">
+            <video width="800" height="650" autoplay loop muted>
+                <source src="amn.mp4" type="video/mp4">
+                </video></div>
+        <h1>Welcome</h1>
+        <h2>Please Login To Your Account!!</h2>
+        <form>
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Username or Mobile no." name="uname" required>
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Password" name="psw" required>
+                <button type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+            <div class="container">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+                <span class="psw" style="text-align: right;">Don't have one? <a href="signup.html">Sign Up</a></span>
+                </form> 
+            <p style="text-align: right; margin-top: 160px;">all rights reserved &#169;THBS 2022</p>         
+    </body>
+</html>
